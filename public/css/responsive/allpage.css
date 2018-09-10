@@ -1,0 +1,260 @@
+/* ==========================================================================
+Extra small devices (phones, 992 and down)
+========================================================================== */
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    .logo-title{
+        font-size: 18px;
+    }
+    a.account-area {
+        font-size: 12px;
+        padding: 0px 1px 0px 2px;
+    }
+
+    .logo-col .logo-img{
+        max-width: 100px;
+    }
+    #top-nav li i {
+        font-size: 54px;
+    }
+
+    .img-67-45 {
+        width: 60px;
+        height: 37px;
+    }
+   
+    a.account-area i {
+        font-size: 14px;
+    }
+    #body_content .content-row .sidebar-col {
+        padding-left: 4%;
+    }
+    footer {
+        height: 114px;
+        max-width: 100%;
+    }
+    footer .foot-content{
+        padding: 6px 9px;
+    }
+    .bar-box-3{
+        width: 100%;
+    }
+}
+
+/* ==========================================================================
+Extra small devices (phones, 768 and down)
+========================================================================== */
+@media only screen and (max-width: 768px) {
+   
+    header{
+        margin-bottom: 0px;
+    }
+
+    .logo-col .logo-img{
+        max-width: 80px;
+    }
+
+    a.account-area{
+        font-size: 10px;
+    }
+
+    .logo-title{
+        font-size: 15px;
+    }
+
+    .login-col {
+        width: 100%;
+        }
+
+    .text-desc {
+        font-size: 15px;
+    }
+
+    i.lxl-title{
+        font-size: 50px;
+        width: 100%;
+    }
+
+    table.table-note tbody>tr>td{
+        width: 100%;
+        display: block;
+    }
+    
+    .mgb-75 {
+        margin-bottom:0!important;  /* footer bottom*/
+    }
+
+    footer {
+        height: 114px;
+        max-width: 100%;
+    }
+
+    footer .foot-content{
+        padding: 6px 9px;
+    }
+
+    .wrapper .box-title {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .wrap-title{
+        font-size: 20px;
+    }
+
+    .box-title{
+        font-size: 17px;
+    }
+
+    table.table-labels .text-btn{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .action-btn{
+        height: auto;
+        font-size: 14px;
+    }
+
+    .element-link a{      /* link */
+        font-size: 14px;
+    }
+
+    .bar-title, .bar-title-2{
+        font-size: 16px;
+    }
+
+    #body_content .content-row .sidebar-col{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+/*
+* === Extra small devices (phones, 480 and down) ===
+*/
+@media only screen and (max-width: 480px) {
+    .logo-col .logo-img{
+        max-width: 70px;
+    }
+
+    .logo-title{
+        font-size: 18px;
+    }
+
+    a.account-area {
+        font-size: 10px;
+    }
+
+    .text-desc {
+        font-size: 13px; /* text container */   
+    }
+    .wrap-title {
+        font-size: 16px;
+    }
+
+    footer .foot-content{
+        font-size: 12px;
+        padding: 5px 5px; /* logo of footer */
+    } 
+
+    footer .foot-content p {
+        font-size: 14px;
+    }
+
+    footer{
+        height: 71px;
+    }
+
+    .box-title{
+        font-size: 14px;
+    }
+
+    i.lxl-title {
+        font-size: 40px;
+    }
+
+    table.table-labels .text-btn{
+        font-size: 12px;
+    }
+
+    .action-btn{
+        font-size: 12px;
+    }
+
+    .element-link a {  /* link */
+        font-size: 13px;
+    }
+
+     .bar-title, .bar-title-2{
+        font-size: 14px;
+    }
+ 
+
+}
+/* ==========================================================================
+Extra small devices (phones, 375 and down)
+========================================================================== */
+@media only screen and (max-width:375px) {
+    .logo-col .logo-img{
+        max-width: 60px;
+    }
+
+    .logo-title{
+        font-size: 15px !important;
+    }
+
+    a.account-area {
+        font-size:9px;
+    }
+
+    .text-desc {
+        font-size: 12px;       
+    }     /* text container */
+
+    footer .foot-content{
+        font-size: 10px;
+        padding-top:0;  /* logo of footer */
+    } 
+
+    footer .foot-content p {
+        font-size: 10px;
+    }
+
+    footer{
+        height: 57px;
+    }
+    
+    .box-title{
+        font-size: 12px;
+    }
+
+    i.lxl-title {
+        font-size: 35px;
+    }
+
+    .nav-breadcrumb{
+        font-size: 12px;
+    }
+    
+    table.table-labels .text-btn{
+        font-size: 11px;
+    }
+
+    table.table-labels tbody>tr>td:last-child {
+        padding:0;
+    }
+
+    .action-btn{
+        font-size: 11px;
+    }
+
+    .element-link a{   /* link */
+        font-size: 12px;  
+    }
+      .bar-title, .bar-title-2{
+        font-size: 12px;
+    }
+    }

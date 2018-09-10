@@ -1,0 +1,125 @@
+/* ==========================================================================
+Extra small devices (phones, 768 and down)
+========================================================================== */
+@media only screen and (max-width: 768px) {
+    .pc{
+        display: none;
+    }
+
+    .sp{
+        display: block;
+    }
+
+    button.navbar-toggle.collapsed {
+        background-color: red;
+    }
+
+    span.icon-bar {
+        background-color: rgb(247, 241, 241) !important;
+    }
+
+    #top-nav li span {
+        display: inline-block;
+    }
+
+    #top-nav li a span,
+    #top-nav li a i {
+        vertical-align: middle;
+    }
+
+    #top-nav {
+        display: none;
+    }
+    .show {
+        display: block;
+    }
+
+    ul#top-nav {
+        width:100% !important;
+    }
+
+    ul#top-nav li {
+        display:block;
+        width:100% !important;
+    }
+
+    ul#top-nav li a {
+        display: block;
+    }
+
+    #top-nav li.active:after{
+        background:none;
+    }
+
+    #top-nav li{
+        text-align: left;
+        border-left: none
+    }
+
+    #top-nav li:last-child{
+        border-right: none;
+    }
+
+    #top-nav li i {
+        font-size: 40px;
+    }
+
+    .img-67-45 {
+        width: 43px;
+        height: 29px;
+    }
+
+    .navbar-toggle {
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .navbar-toggle{
+        padding: 10px;
+    }
+
+}
+    /* ==========================================================================
+Extra small devices (phones, 480 and down)
+========================================================================== */
+@media only screen and (max-width: 480px) {
+    #top-nav li i{
+    font-size: 33px;
+    }
+
+    .img-67-45 {
+        width: 25px;
+        height: 22px;
+    }
+
+}
+ /* ==========================================================================
+Extra small devices (phones, 375 and down)
+========================================================================== */
+@media only screen and (max-width:375px) {
+    .navbar-toggle{
+        padding: 6px 5px; 
+    }
+
+    .logo-title {
+        font-size: 14px !important;
+    }
+
+    a.account-area {
+        font-size: 8px;
+    }
+
+    #top-nav li i{
+        font-size:27px;
+     }
+
+    .img-67-45 {
+    width: 22px;
+    height: 20px;
+    }
+    
+ }   
+   

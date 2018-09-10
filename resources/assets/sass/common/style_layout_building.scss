@@ -1,0 +1,399 @@
+/* button forward, point, conversation*/
+/* text main */
+/* text undeline */
+/* error */
+/* group emp */
+/* member family */
+/* delete, back, logout */
+/* reform store */
+/* introduce */
+/* main border color */
+@import "../minxin.scss";
+
+html, body {
+  font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #54585a;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.lxl-icon {
+  font-size: 170%;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.lxl-icon-circle {
+  border-radius: 100%;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.lxl-icon-circle.circle-high {
+  background: #e75400;
+  color: #fff;
+}
+
+/* buttons */
+.link-btn {
+  padding: 5px 10px;
+}
+.link-btn:hover {
+  opacity: 0.8;
+}
+
+.link-btn-main {
+  color: #fff;
+  background: #7f8283;
+}
+.link-btn-main:hover {
+  color: #fff;
+}
+
+.text-btn {
+  padding: 5px 8px 2px;
+  color: #fff;
+  display: inline-block;
+}
+.text-btn:hover {
+  color: #fff;
+}
+
+.action-btn {
+  height: 40px;
+  padding: 5px 15px;
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #a9abac;
+  text-align: center;
+}
+.action-btn:hover {
+  opacity: 0.8;
+}
+.action-btn i {
+  font-size: 170%;
+  vertical-align: middle;
+}
+
+.action-btn.action-btn-md {
+  height: 60px;
+}
+
+.action-btn.action-btn-lg {
+  height: 70px;
+  font-size: 24px;
+  padding: 13px 20px 13px 15px;
+}
+.action-btn.action-btn-lg i {
+  margin-right: 18px;
+}
+
+.action-btn-high {
+  background: #e75400;
+}
+
+/*alert pannel*/
+.alert-panel {
+  padding: 15px 25px;
+  border-top: 4px solid #54585a;
+  background: #f7f8f9;
+}
+.alert-panel .alert-header {
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+.alert-panel .alert-content {
+  /*color: #fcf0ef;*/
+  font-size: 16px;
+  line-height: 24px;
+}
+.alert-panel .alert-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.alert-panel-danger {
+  border-top-color: #e51600;
+  background: #fcf0ef;
+}
+.alert-panel-danger .alert-header {
+  color: #e51600;
+}
+
+/*margin*/
+.mgt-5 {
+  margin-top: 5px !important;
+}
+
+.mgt-8 {
+  margin-top: 8px !important;
+}
+
+.mgb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mgb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mgb-25 {
+  margin-bottom: 25px !important;
+}
+
+.mgb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mgb-75 {
+  margin-bottom: 75px !important;
+}
+
+/*border*/
+.bd-main {
+  border-bottom: 1px solid #d8dadf;
+}
+
+/*/height*/
+.height-20 {
+  height: 20px;
+}
+
+.height-50 {
+  height: 50px;
+}
+
+header {
+  border-top: 4px solid #e75400;
+  /*border-bottom: 1px solid #d8dadf;*/
+  /*margin-bottom: 20px;*/
+}
+
+.no-border-header header {
+  border-bottom: none;
+}
+
+.container {
+  width: 1000px;
+}
+
+.logo-img {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  max-width: 112px;
+  height: auto;
+}
+
+.logo-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.text-header {
+  border: 1px solid #7f8283;
+  margin-top: 30px;
+  padding-top: 5px;
+  font-size: 13px;
+}
+.text-header div {
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  padding-bottom: 5px;
+}
+.name_application{
+  font-weight: 700;
+  font-size: 23px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+footer {
+  position: relative;
+  height: 170px;
+  background: url(../images/footer-bg.png) no-repeat;
+  background-size: cover;
+  max-width: 1100px;
+  margin: auto;
+}
+footer .foot-content {
+  position: absolute;
+  padding: 10px 45px;
+  background: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+footer .foot-content p {
+  font-size: 19px;
+}
+footer .text-lixil {
+  color: #e75400;
+}
+.custom-radio{
+    float: left;
+    margin-right:10px;
+    [type="radio"] {
+        &:checked, &:not(:checked) {
+            position: absolute;
+            left: -9999px;
+        }
+        &:checked + label,&:not(:checked) + label {
+            position: relative;
+            padding-left: 30px;
+            cursor: pointer;
+            line-height: 20px;
+            display: inline-block;
+            color: #666666;
+            font-weight: normal;
+        }
+        &:not(:checked) + label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid $cl_back;
+            border-radius: 100%;
+            background: #ffffff;
+        }
+        &:checked + label:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid $cl_high;
+            border-radius: 100%;
+            background: #ffffff;
+        }
+        &:checked + label:after, &:not(:checked) + label:after {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: $cl_high;
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            border-radius: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+        }
+        &:not(:checked) + label:after {
+            opacity: 0;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+        }
+        &:checked + label:after {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        &:disabled:not(:checked) + label:before, &:disabled:checked + label:before {
+            box-shadow: none;
+            border-color: #bbbbbb;
+            background-color: #dddddd;
+        }
+        &:disabled:checked + label:after {
+            color: #999999;
+            background: #7f8283;
+        }
+        &:disabled + label {
+            color: #aaaaaa;
+            cursor: not-allowed;
+        }
+    }
+}
+.custom-checkbox{
+    [type="checkbox"] {
+        &:not(:checked), &:checked {
+            position: absolute;
+            left: -9999px;
+        }
+        &:not(:checked) + label, &:checked + label {
+            position: relative;
+            padding-left: 1.95em;
+            cursor: pointer;
+        }
+        &:not(:checked) + label:before{
+            content: '';
+            position: absolute;
+            left: 0; top: 0;
+            width: 1.25em; height: 1.25em;
+            border: 2px solid $cl_back;
+            background: #ffffff;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+        }
+        &:checked + label:before {
+            content: '';
+            position: absolute;
+            left: 0; top: 0;
+            width: 1.25em; height: 1.25em;
+            border: 2px solid $cl_high;
+            background: #ffffff;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+        }
+        &:checked + label:before {
+            content: '';
+            position: absolute;
+            left: 0; top: 0;
+            width: 1.25em; height: 1.25em;
+            border: 2px solid $cl_high;
+            background: #ffffff;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+        }
+        &:not(:checked) + label:after, &:checked + label:after {
+            content: "\e09b";
+            font-family: 'lxl-material-icon';
+            position: absolute;
+            top: -.1em; left: .075em;
+            font-size: 1.5em;
+            line-height: 0.8;
+            color: $cl_high;
+            transition: all .2s;
+        }
+        &:not(:checked) + label:after {
+            opacity: 0;
+            transform: scale(0);
+        }
+        &:checked + label:after {
+            opacity: 1;
+            transform: scale(1);
+        }
+        &:disabled:not(:checked) + label:before, &:disabled:checked + label:before {
+            box-shadow: none;
+            border-color: #bbbbbb;
+            background-color: #dddddd;
+        }
+        &:disabled:checked + label:after {
+            color: #999999;
+        }
+        &:disabled + label {
+            color: #999999;
+        }
+        &:disabled + label {
+            color: #aaaaaa;
+        }
+        &:checked:focus + label:before, &:not(:checked):focus + label:before {
+            /*border: 2px dotted blue;*/
+        }
+    }
+}
+.left-mgr-10 {
+    float: left;
+    margin-right:10px;
+}

@@ -1,0 +1,159 @@
+/* ==========================================================================
+Extra small devices (phones, 992 and down)
+========================================================================== */
+@media only screen and (max-width: 992px) {
+
+    .box-title{
+        font-size: 19px;
+    }
+
+    .text-desc {
+        font-size: 15px;
+    }
+
+    .img-42-42 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .action-btn.action-btn-lg{
+        font-size: 14px;
+        padding: 10px 12px;
+        height: auto;
+    }
+
+    .img-60-40 {
+        width: 38px;
+        height: 30px;
+    }
+    .action-btn.action-btn-md {
+        height:auto;
+    }
+}
+
+
+/* ==========================================================================
+Extra small devices (phones, 768 and down)
+========================================================================== */
+@media only screen and (max-width: 768px) {
+    .box-title {
+        font-size: 16px;
+    }
+
+    .img-42-42 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .action-btn.action-btn-lg i {
+        margin-right: 0;
+    }
+
+    .action-btn.action-btn-lg{
+        font-size: 14px;
+    }
+
+    .img-60-40 {
+        width: 35px;
+        height: 25px;
+    }
+
+    .form-field{
+        height: 45px;
+    }
+
+    .mgb-30 {
+        margin-bottom: 15px!important;
+    }
+
+}
+/*
+* === Extra small devices (phones, 480 and down) ===
+*/
+@media only screen and (max-width: 480px) {
+   
+    .box-title {
+        font-size: 14px;
+    }
+
+    .img-42-42 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .img-60-40 {
+        width: 35px;
+        height: 30px;
+    }
+
+    .form-field{
+        height: 40px;
+    }
+
+    .action-btn.action-btn-lg{
+        font-size: 14px;
+        height: 50px;
+    }
+
+    .action-btn.action-btn-md {
+        height: 45px;
+    }
+
+    .lxl-icon-circle{
+        width: 23px;
+        height: 23px;
+        font-size: 17px;
+    }
+
+}
+/* ==========================================================================
+Extra small devices (phones, 375 and down)
+========================================================================== */
+@media only screen and (max-width:375px) {
+   
+    .box-title {
+        font-size: 12px;
+    }
+
+    .action-btn.action-btn-lg{
+        font-size: 13px;
+        height: 47px;
+    }
+
+    .form-field{
+        height: 37px;
+    }
+
+    .img-42-42 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .img-60-40 {
+        width: 25px;
+        height: 20px;
+    }
+
+    .action-btn.action-btn-md {
+        height: 30px;
+    }
+
+    .action-btn{
+        font-size: 10px;
+    }
+
+    .lxl-icon-circle{
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+    }
+
+    footer .foot-content p {
+        font-size: 8px;
+    }
+
+    .lxl-icon{
+        font-size: 150%;
+    }
+    
+    }

@@ -1,0 +1,393 @@
+@import "../minxin.scss";
+
+header {
+    border-top: 4px solid #e75400;
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+.logo-col label {
+    padding-top: 35px; 
+    font-size: 21px;
+}
+.logo-img {
+	margin-top: 25px;
+}
+#body_content {
+    padding-bottom: 40px;
+}
+.content-col {
+    margin-left: 35px;
+}
+.box {
+    border: 1px solid #000;
+    height: 100%;
+    padding: 40px;
+    margin-bottom: 0px;
+}
+.box input {
+    border: 1px solid #000;
+    border-radius: 1px;
+}
+.box-singin {
+    padding: 40px 0px 40px 80px;
+}
+.page-title {
+    color: #000;
+}
+.form-label-left  .control-label {
+    text-align: left;
+}
+.box .row {
+    margin: 0px;
+}
+.circle  {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 0px 5px 0px 0px;
+    top: 2px;
+    position: relative;
+}
+.area-password p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.area-note {
+    margin-top: 10px;
+}
+
+#body_content .container #btn-submit {
+    width: 400px;
+    border-radius: 1px;
+    font-size: 24px;
+}
+.area-button {
+    margin: 30px 0px;
+}
+#body_content .container a {
+    text-decoration: underline;
+}
+.has-error .help-block {
+    color: #e51600;
+}
+.has-error .form-control-feedback {
+    color: #e51600;
+    right: 8px;
+}
+.register-member {
+    .thanks-content {
+        color: #000;
+        font-size: 18px;
+    }
+    .thanks-footer {
+        margin-top: 60px;
+    }
+}
+.register-member .body-header {
+    border-bottom: 1px solid #54585a;
+}
+.register-member .bread {
+    margin-top: 10px;
+}
+.register-member .bread .text {
+    border-bottom: 1px solid #54585a;
+}
+.register-member .bread .lxl-icon-circle {
+    margin-right: 11px;
+}
+.steps {
+    margin: 40px auto;
+}
+.steps .list-steps {
+    padding-left: 40px;
+}
+.steps .col-xs-4{
+    width: 200px;
+    height: 50px;
+    border: 3px solid #8a7d76;
+    margin-left: 30px;
+    padding-left: 20px;
+    display: table;
+}
+.steps .list-steps span {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #8a7d76;
+}
+.steps .list-steps span:first-child {
+    font-size: 30px;
+    padding-right: 15px;
+}
+.steps .active {
+    background-color: #8a7d76;    
+}
+.steps .active span{
+    color: #fff;
+}
+.btn-em {
+    width: 70px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #e75400;
+    color: #fff;
+    padding: 5px 19px;
+    font-size: 16px;
+}
+.text-label {
+    font-size: 18px;
+    margin-right: 12px;
+}
+.form-table {
+    display: table;
+}
+.form-table .control-label {
+    display: table-cell;
+    vertical-align: middle;
+}
+.title-form {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.register-member .form-body{
+    margin-left: 20px;
+}
+.form-body input,
+.form-body select {    
+  border-radius: 1px;
+  border: 1px solid #8a7d76;
+}
+.form-body .form-group {
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    margin-left: 0px;
+    margin-right: 5px;    
+}
+.form-body .number-phone .row{
+    margin-bottom: 15px;
+}
+.form-body .number-phone .row .col-xs-4 {
+    padding-left: 0px;
+}
+.address-member .row {
+    margin-bottom: 15px;
+}
+.zip input{
+    float: left;
+    width: 12%;
+}
+.zip button {
+    float: left;
+    background-color: #a1a1a1;
+    color: #fff;    
+    padding: 6px;
+    margin-left: 10px;
+    border: 1px solid;
+}
+.zip span {
+    margin-top: 7px;
+    display: table;
+    padding-left: 10px;
+}
+.zip span.hyphen{
+    float: left;
+    width: 4%;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 0px;
+}
+.address-member .row:last-child div:last-child {
+    padding: 0px;
+}
+.form-footer button {
+    width: 100%;
+    height: 60px;
+    font-size: 21px;
+    color: #fff;
+    border: 1px solid;
+}
+.form-footer div {
+    padding: 0px;
+}
+.form-footer .btn-previous{
+    background-color: #7f8283;
+}
+.form-footer .btn-next{
+    background-color: #e75400;
+}
+.group-table {
+    a.btn-previous {
+        width: 100%;
+        height: 60px;
+        font-size: 21px;
+        color: #fff;
+        border: 1px solid;
+        display: table-cell;
+        vertical-align: middle;
+        &:hover {
+            color: #fff;
+            border-color: #7f8283;
+        }
+    }
+    display: table;
+}
+.full-width {    
+    width: 100%;
+}
+.register-thanks .thanks-content {
+    padding-bottom: 35px;
+}
+.register-thanks h3 {
+    margin: 10px;
+}
+.register-thanks .circle  {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 0px 5px 0px 0px;
+    top: 2px;
+    position: relative;
+}
+.register-thanks p {
+    margin-bottom: 15px;
+}
+.register-thanks .thanks-content {
+    font-size: 18px;
+}
+.register-thanks .thanks-footer .note-time {
+    font-size: 14px;
+    color: red;
+}
+.register-thanks .thanks-footer .footer-btn {
+    margin-top: 20px;
+}
+.register-thanks .boder-header {
+    border-bottom: 2px solid #d8dadf;
+}
+.register-thanks .boder-footer {
+    border-bottom: 1px dotted;
+}
+.password-member {
+    .content-col {
+        margin-top: 20px;
+        margin-right: 35px;
+        .box {
+            margin-top: 10px;
+            .text-fail {
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+    }
+    .area-button .btn {
+        background-color: #7f8283;
+        color : #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    
+    .text-email {
+        padding-top: 7px;        
+    }
+    .title-box p {
+        font-size: 19px;
+    }
+}
+.success-member {
+    .content-text {
+        margin: 50px 0px;        
+    }
+    .content-text p:first-child {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .content-text p:last-child {
+        font-size: 13px;
+    }
+    .area-button .btn {
+        background-color: #7f8283;
+        color : #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+.zip {
+    .zip-zip {
+        width: 12%;
+        margin :0px;
+        padding: 0px;
+        input {
+            float: left;
+            width: 100%;
+        }
+    }
+    .has-error .form-control-feedback {
+        right: -4px;
+    }
+}
+.form-footer {
+    .btn-next, .btn-previous {
+        position: relative;
+    }
+    .btn-next .icon-left {
+        position: absolute;
+        left: 0px;
+    }
+    .btn-previous .icon-right {
+        position: absolute;
+        right: 0px;
+    }
+}
+.zip-no .has-error .help-block {
+    float: inherit;
+    color: #e51600;
+    margin-right: 20px;
+}
+.has-error .error:before {
+    font-size: 24px;
+}
+.has-error .form-control {
+    background-color: $bg_error;
+}
+.register-member a{
+    text-decoration: none !important;
+    color:#000;
+    &:hover{
+        color: #337ab7;
+    }
+}
+.register-thanks {
+    a {
+        text-decoration: none !important;
+        color:#000;
+        &:hover{
+            color: #337ab7;
+        }
+    }
+    .bread {
+        margin-top: 10px;
+        .text {
+            border-bottom: 1px solid #54585a;
+        }
+        .lxl-icon-circle {
+            margin-right: 11px;
+        }
+    }
+}
+
+.error-icon {
+    font-size: 24px;
+    top: 7px;
+    
+}
+.mgb-15 {
+    margin-bottom: 15px;
+}
+#password-field::-ms-clear, #password-field::-ms-reveal {
+        display: none;
+}

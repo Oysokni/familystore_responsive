@@ -1,0 +1,82 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+php-gettext is already the newest version (1.0.11-2+deb.sury.org~xenial+1).
+libapache2-mod-php7.0 is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-intl is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php-mbstring is already the newest version (1:7.1+55+ubuntu16.04.1+deb.sury.org+1).
+php7.0-sqlite3 is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-mysql is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-mbstring is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-xml is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-zip is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+mysql-server is already the newest version (5.7.19-0ubuntu0.16.04.1).
+phpmyadmin is already the newest version (4:4.5.4.1-2ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Module rewrite already enabled
+All settings correct for using Composer
+Downloading...
+
+Composer (version 1.5.2) successfully installed to: /home/ubuntu/composer.phar
+Use it: php composer.phar
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+php-gettext is already the newest version (1.0.11-2+deb.sury.org~xenial+1).
+libapache2-mod-php7.0 is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-intl is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php-mbstring is already the newest version (1:7.1+55+ubuntu16.04.1+deb.sury.org+1).
+php7.0-sqlite3 is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-mysql is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-mbstring is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-xml is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-zip is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+mysql-server is already the newest version (5.7.19-0ubuntu0.16.04.1).
+phpmyadmin is already the newest version (4:4.5.4.1-2ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Job for apache2.service failed because the control process exited with error code. See "systemctl status apache2.service" and "journalctl -xe" for details.
+Module rewrite already enabled
+Job for apache2.service failed because the control process exited with error code. See "systemctl status apache2.service" and "journalctl -xe" for details.
+All settings correct for using Composer
+Downloading...
+
+Composer (version 1.5.2) successfully installed to: /home/ubuntu/composer.phar
+Use it: php composer.phar
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+php-gettext is already the newest version (1.0.11-2+deb.sury.org~xenial+1).
+libapache2-mod-php7.0 is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-intl is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php-mbstring is already the newest version (1:7.1+55+ubuntu16.04.1+deb.sury.org+1).
+php7.0-sqlite3 is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-mysql is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-mbstring is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-xml is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+php7.0-zip is already the newest version (7.0.23-1+ubuntu16.04.1+deb.sury.org+1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+mysql-server is already the newest version (5.7.19-0ubuntu0.16.04.1).
+phpmyadmin is already the newest version (4:4.5.4.1-2ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+apache2.service is not active, cannot reload.
+Module rewrite already enabled
+Job for apache2.service failed because the control process exited with error code. See "systemctl status apache2.service" and "journalctl -xe" for details.
+All settings correct for using Composer
+Downloading...
+
+Composer (version 1.5.2) successfully installed to: /home/ubuntu/composer.phar
+Use it: php composer.phar
+

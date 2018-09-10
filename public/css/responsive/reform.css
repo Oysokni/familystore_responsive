@@ -1,0 +1,160 @@
+/* ==========================================================================
+Extra small devices (phones, 768 and down)
+========================================================================== */
+@media only screen and (max-width: 768px) {
+
+#body_content .content-row .content-col{
+    width: 100%;
+}
+
+.to-top-box{
+    right: 29px
+}
+
+.items .item{
+    width: 50%;
+}
+
+#body_content .content-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.media.item{
+    width: 100%;
+}
+
+.page-title{
+    font-size: 25px;
+}
+
+.page-title i {
+    font-size: 50px;
+}
+
+.text-btn-blue, .text-btn-family{
+    margin-bottom: 10px;
+    font-size: 15px !important;
+    width: 100%;
+}
+
+.nav-breadcrumb{
+    margin-top: 10px;
+}
+
+
+.grid-items .item-title a{
+    font-size: 16px;
+}
+
+.alert-panel{
+    padding: 0 0;
+}
+
+.alert-panel-danger .alert-header i{
+    font-size: 29px;
+}
+
+.alert-panel .alert-header{
+    font-size: 16px;
+}
+
+.alert-panel .alert-content{
+    font-size: 14px;
+}
+
+.category-list li a{
+    font-size: 14px;
+}
+
+.mgb-70 {
+    margin-bottom: 21px!important;
+}
+
+.nav-breadcrumb {
+    margin-bottom: 5px;
+}
+
+}
+/* ==========================================================================
+Extra small devices (phones, 480 and down)
+========================================================================== */
+@media only screen and (max-width: 480px) {
+    .page-title i {
+        font-size: 43px;
+    }
+
+    .text-btn-blue, .text-btn-family{
+        font-size: 13px;
+    }
+   
+    .page-title-icon{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .alert-panel .alert-header{
+        font-size: 14px;
+    }
+
+    .alert-panel-danger .alert-header i{
+        font-size: 25px;
+    }
+
+    .grid-items .item-title a {
+        font-size: 14px;
+    }
+
+    .category-items .item .media-left{
+        width: 100%;
+    }
+
+    .category-list li a {
+        font-size: 12px;
+    }
+
+   
+}
+
+/* ==========================================================================
+Extra small devices (phones, 375 and down)
+========================================================================== */
+@media  screen and (max-width:375px) {
+    .page-title i{
+        font-size: 38px !important;
+    }
+    .text-btn-blue, .text-btn-family{
+        font-size: 12px !important;
+    }
+    .page-title-icon{
+        font-size: 17px;
+        padding-left: 46px;
+    }
+    .box {
+        margin-bottom: 0;
+    }
+    .grid-items .item-title a {
+        font-size: 12px;
+    }
+    .thumb-img>img{
+        top: 40%;
+    }
+    .grid-items .item{
+        padding-left: 7px;
+        font-size: 10px !important;
+        padding-right: 0px;
+    }
+    .alert-panel-danger .alert-header i {
+        font-size: 23px;
+    }
+    .alert-panel .alert-header {
+        font-size: 12px;
+    }
+    .alert-panel .alert-content {
+        font-size: 12px;
+    }
+    
+    .category-list li a {
+        font-size: 11px;
+    }
+} 

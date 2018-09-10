@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/public/tmp_images
+/storage/fonts
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+/nbproject
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+nohup.out
+.env
+/public/mix-manifest.json

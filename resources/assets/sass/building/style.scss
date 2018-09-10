@@ -1,0 +1,356 @@
+.body_content {
+  border-top: 1px solid #4c4948;
+  margin-bottom: 20px;
+}
+.body_content>form>.row {
+  border-bottom: 1px dotted #d8dadf;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+.body_content>.row {
+  border-bottom: 1px dotted #d8dadf;
+  margin-bottom: 5px;
+  margin-top: 8px;
+  padding: 5px 0px;
+}
+.title_primary h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 25px;
+}
+.title_primary .xil_date {
+  margin-top: 25px;
+}
+.body_content label {
+  font-weight: 100;
+  font-size: 15px;
+}
+.lxl-right {
+  text-align: right;
+}
+.lxl_radio>.radio-inline{
+  display: inline;
+  margin-right: 5px;
+}
+.lxl_checkbox>.checkbox {
+  display: inline-block;
+  margin-right: 5px;
+}
+.lxl_checkbox>.first_checkbox {
+  margin-left: 10%;
+}
+.lxl_checkbox>span {
+  margin-bottom: 5px;
+}
+.red_color {
+  margin-left: 5px;
+  color: #e51600;
+}
+.row_input {
+  padding-bottom: 10px;
+}
+.pdb-6 {
+    padding-bottom: 6px;
+}
+.lxl_input>input {
+  margin-right: 10px;
+}
+.lxl_radio>input[type="text"] {
+  width: 250px;
+}
+.lxl_length>input[type="text"] {
+  /*width: 65px;*/
+  margin-bottom: 10px;
+}
+.lxl_width_checkbox{
+  width: 200px;
+  margin-bottom: 10px;
+}
+.lxl_list_input>.col-xs-10 {
+  margin-bottom: 10px;
+}
+.address {
+  border-bottom: 1px dotted #d8dadf;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.lxl_city {
+  margin-bottom: 10px;
+}
+
+.span_title>h3>span:last-child {
+  font-weight: 100;
+  font-size: 15px;
+}
+.list_checkbox {
+  margin-top: 20px !important;
+  padding-bottom: 15px !important;
+}
+.pref21 {
+  margin-bottom: 10px;
+}
+.list_checkbox ul li {
+  list-style: none;
+}
+.lxl_item_row {
+  margin-top: 20px !important;
+  padding-bottom: 15px !important;
+}
+.lxl_item_row .checkbox {
+  display: inline-block;
+  margin-top: 0; margin-bottom: 0;
+}
+.lxl_item_row .red_color_input {
+  color: #e51600;
+}
+.lxl_item_row .orange_color {
+  color: #e75400;
+}
+.lxl_item_row>.col-xs-2 {
+  font-weight: 700;
+  font-size: 15px;
+}
+.btn_introduce {
+  width: 250px;
+  height: 35px;
+  text-decoration: none!important;
+  border-radius: 0;
+  display: inline-block;
+  padding: 8px 10px;
+  box-shadow: 1px 2px 1px #000;
+  -moz-box-shadow: 1px 2px 1px #000;
+  -webkit-shadow: 1px 2px 1px #000;
+}
+.lxl_areatxt {
+  margin-top: 20px !important;
+  border-bottom: none !important;
+}
+.lxl_areatxt span {
+  padding-bottom: 10px !important;
+}
+.lxl_areatxt textarea {
+  width: 100%;
+}
+.lxl_submit {
+  border-bottom: none !important;
+}
+.btn_submit {
+  background-color: #e75400;
+  width: 75%;
+  height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  outline: none;
+}
+.lxl_back {
+  border-bottom: none !important;
+}
+.color_gray {
+  min-width: 105px;
+  padding: 2px 0;
+  background-color:#7f8283;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.body_success .col-xs-12 {
+  margin-left: 100px;
+}
+.body_success h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.special_character {
+  color: #e75400;
+}
+.mail_lixil {
+  color: #e75400;
+}
+.button_to_top_page {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.s_submit {
+  display: inline-block;
+  padding: 15px;
+  background-color: #7f8283;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  width: 40%;
+  height: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  outline: none;
+  &:hover {
+      color: #fff;
+      opacity: 0.8;
+  }
+}
+.form-control-feedback {
+  right: 5px !important;
+}
+.line-height-span {
+  padding: 5px;
+}
+.lxl-pos {
+  position: absolute;
+  left: 109px;
+  top: 5px;
+}
+.lxl-line-height {
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+.department {
+    .radio-type-emp {
+        padding: 8px 0px 0px 0px;
+    }
+    input {
+        margin-bottom: 8px;
+    }
+}
+.lxl-icon-circle.icon-right{
+    position: relative;    
+    &:before {
+        font-size: 25px;
+        position: absolute;
+        top: 1px;
+        right: -3px;
+    }
+}
+.lxl_back {
+    display: table;
+    a {
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 10px;
+        color: #000000;
+        &:link, &:visited {
+            text-decoration: none!important;
+        }
+    }
+}
+.contact-method {
+    .custom-radio {
+        float: none;
+    }
+}
+.group-relation {
+    padding: 7px 10px 15px 10px;
+}
+.padding-span {
+    padding: 5px 10px;
+}
+.lxl_item_row {
+    .check-role {
+        padding-right: 0px;
+        padding-left: 0;
+    }
+    .button-modal {
+        padding-left: 0px;
+    }
+}
+.btn-auto {
+    margin-left:11%;
+}
+.div-disable {
+    background: #eeeeee;
+    cursor: not-allowed;
+    padding: 10px 0 10px 10px;
+}
+.help-block {
+    color:red;
+}
+
+.checkbox-disabled {
+    cursor: not-allowed;
+}
+.border-bottom-none-builder {
+    border-bottom: none !important;
+}
+
+.disableMouse {
+    pointer-events: none;
+    opacity: 0.7;
+    background: #eeeeee;
+}
+.pdf-btn {
+    width: 400px;
+    height: 30px;
+    padding: 2px;
+}
+a.pdf-btn {
+    &:link, &:visited, &:active, &:hover, &:focus {
+        color: #ffffff;
+    }
+}
+.pdf-note {
+    font-size:12px;
+}
+a.pdf-note {
+    &:link, &:visited, &:active, &:hover, &:focus {
+        color: #ffffff;
+    }
+}
+.text-center {
+    text-align: center;
+}
+.text-desc {
+    font-size: 16px;
+    color: #54585a;
+    line-height: 26px;
+}
+.custom-dialog {
+    width: 1000px;
+    .custom-content {
+        height: 450px;
+        .custom-close {
+            padding: 25px 30px;
+            width: 84px;
+            button {
+                height: 26px;
+                width: 26px;
+                padding: 0;
+                .close, .close:hover {
+                    font-size: 36px;
+                    opacity: 1;
+                    margin-top: -7px;
+                    margin-right: -7px;
+                }
+            }
+        }
+        .custom-body {
+            header {
+                border-bottom: none;
+            }
+            padding: 0;
+        }
+    }
+}
+.action-btn-building {
+    height: 40px;
+    padding: 8px 15px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #a9abac;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none!important;
+    &:hover {
+        color: #fff;
+        opacity: 0.8;
+    }
+    i {
+        font-size: 170%;
+        vertical-align: middle;
+    }
+}
+.action-btn-high {
+  background: #e75400;
+}

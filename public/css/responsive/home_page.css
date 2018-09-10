@@ -1,0 +1,196 @@
+/* ==========================================================================
+Extra small devices (phones, 768 and down)
+========================================================================== */
+@media only screen and (max-width: 768px) {
+    .container-wrap {
+        width: 100%;
+    } 
+
+    .top-page #nav-bar {
+        display: none;
+    }
+    
+    .logo-col .logo-img{
+        max-width: 90px;
+    }
+
+    .bg-head-box {
+        margin-bottom: 2% !important;
+        padding-top: 0;
+        background-size: 100%;
+        background-position: center;
+        min-height: 100%;
+    }
+
+    .bg-head-box .bg-content-middle{
+        width: 100%;
+        padding: 5% 15px;
+    }
+
+    .bg-head-box .bg-content-middle .bg-title{
+        font-size: 25px;
+        padding-top: 0px;
+        margin-bottom: 2%;
+    }
+
+    .bg-head-box .bg-content-middle .bg-desc{
+        font-size: 20px;
+    }
+
+    .bg-head-box .bg-content-middle .bg-desc > p{
+        margin-bottom: 0px;
+    }
+    .bg-desc{
+        font-size: 20px;
+    }
+
+    .nowrap-space{
+        white-space: normal;
+    }
+    .wrap-border .table-labels tr:last-child>td:last-child{
+        padding-right: 0;
+    }
+  
+    .text-wrap {
+        font-size: 13px;
+    }
+
+    .wrap-border .action-btn{
+        position: static;
+        bottom: 7px;
+        font-size: 16px;
+    }
+
+    #body_content .content-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+/* ==========================================================================
+Extra small devices (phones, 480 and down)
+========================================================================== */
+@media only screen and (max-width: 480px) {
+    .bg-title{
+        font-size:16px;
+        padding-top: 8px;
+    }
+
+    span.sub-title.text-desc {
+        width: 100%;
+        display: block;
+    }
+
+    .text-wrap {
+        font-size: 11px;
+    }
+
+    table.table-labels tbody>tr>td {
+        width: 100%;
+        display: block;
+    }
+
+    table.table-labels tbody>tr:last-child>td{
+        width: 100%;
+        display: block;
+    }
+   
+    .wrap-border .action-btn{
+        font-size: 13px;
+    }
+
+    .wrap-border .action-btn {
+        font-size: 12px;
+        min-width: 171px;
+        height: auto;
+    }
+
+    /* background image*/
+    .bg-head-box {
+        margin-bottom: 2% !important;
+        padding-top: 0;
+        background-size: 100%;
+        background-position: center;
+        min-height: 100%;
+    }
+
+    .bg-head-box .bg-content-middle{
+        width: 100%;
+        padding: 5% 10px;
+    }
+
+    .bg-head-box .bg-content-middle .bg-title{
+        font-size: 16px;
+        padding-top: 0px;
+        margin-bottom: 2%;
+    }
+
+    .bg-head-box .bg-content-middle .bg-desc{
+        font-size: 14px;
+    }
+    
+    .bg-head-box .bg-content-middle .bg-desc > p{
+        margin-bottom: 0px;
+    }
+    /* finished background image*/
+    table.table-note tbody>tr>td{
+        padding: 8px 8px;
+    }
+
+}
+/* ==========================================================================
+Extra small devices (phones, 375 and down)
+========================================================================== */
+@media only screen and (max-width:375px) {
+    .bg-title {
+        font-size: 12px;
+    }
+
+    .bg-desc {
+        font-size: 11px;
+    }
+
+    .wrap-title {
+        font-size: 14px !important;
+    }
+
+    .text-wrap {
+        font-size: 11px
+    }
+
+    .wrap-border .action-btn{
+        font-size: 10px;
+        min-width: 131px;
+        height: auto;
+    }
+    
+    .bg-head-box {
+        margin-bottom: 2% !important;
+        padding-top: 0;
+        background-size: 100%;
+        background-position: center;
+        min-height: 100%;
+    }
+
+    .bg-head-box .bg-content-middle{
+        width: 100%;
+        padding: 5% 5px;
+    }
+
+    .bg-head-box .bg-content-middle .bg-title{
+        font-size: 12px;
+        padding-top: 0px;
+        margin-bottom: 2%;
+    }
+
+    .bg-head-box .bg-content-middle .bg-desc{
+        font-size: 11px;
+    }
+
+    .bg-head-box .bg-content-middle .bg-desc > p{
+        margin-bottom: 0px;
+    }
+   
+    
+}
+

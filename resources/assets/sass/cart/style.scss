@@ -1,0 +1,379 @@
+.row-border {
+  border-bottom: 1px dotted #d8dadf;
+  padding: 10px;
+  label {
+      margin-bottom: 0;
+      font-weight: 400;
+      font-size: 15px;
+  }
+}
+
+.title_primary h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.body_content label {
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.lxl-right {
+  text-align: right;
+}
+
+.lxl_radio > .radio-inline {
+  display: inline;
+  margin-right: 5px;
+}
+
+.lxl_checkbox .checkbox {
+  display: inline-block;
+  margin: 5px 5px 5px 0px;
+}
+
+.lxl_checkbox > .first_checkbox {
+  margin-left: 10%;
+}
+
+.lxl_checkbox > span {
+  margin-bottom: 5px;
+}
+
+.red_color {
+  margin-left: 5px;
+  color: #e51600;
+}
+
+.lxl_radio > input[type="text"] {
+  width: 250px;
+}
+
+.lxl_length > input[type="text"] {
+  /*width: 65px;*/
+  margin-bottom: 10px;
+}
+
+.lxl_width_checkbox {
+  width: 190px;
+  margin-bottom: 10px;
+}
+.lxl_width_checkbox-1 {
+  width: 300px;
+  margin-bottom: 10px;
+}
+.lxl_list_input > .col-xs-10 {
+  margin-bottom: 10px;
+}
+.lxl_areatxt {
+  margin-top: 20px !important;
+  border-bottom: none !important;
+}
+
+.lxl_areatxt p {
+  padding-left: 10px;
+}
+
+.lxl_areatxt textarea {
+  width: 100%;
+}
+
+.lxl_submit {
+  border-bottom: none !important;
+}
+
+.btn_submit {
+  background-color: #e75400;
+  width: 75%;
+  height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.lxl_back {
+  border-bottom: none !important;
+}
+
+.color_gray {
+  width: 100px;
+  background-color: #7f8283;
+  color: #ffffff;
+}
+
+.body_success {
+  margin-left: 100px;
+}
+
+.form-control-feedback {
+  right: 5px !important;
+}
+
+.line-height-span {
+  padding: 5px;
+}
+
+.lxl-pos {
+  position: absolute;
+  left: 109px;
+  top: 5px;
+}
+
+.lxl-line-height {
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+.lxl_input_relative {
+  position: relative;
+}
+.lxl_input_relative .input-month {
+    margin-left: 20px;
+}
+.lxl_year {
+  position: absolute;
+  top: 6px;
+  left: 124px;
+}
+.lxl_month {
+  position: absolute;
+  top: 6px;
+  left: 258px;
+}
+.lxl_row1 {
+  border-top: 1px dotted #d8dadf;
+  border-bottom: 1px dotted #d8dadf;
+  border-right: 1px dotted #d8dadf;
+}
+.lxl_row1>.row {
+  border-bottom: 1px dotted #d8dadf;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.lxl_row1>.row:last-child {
+  border-bottom: none;
+}
+.lxl_row2 {
+  border-top: 1px dotted #d8dadf;
+  border-bottom: 1px dotted #d8dadf;
+}
+.lxl_row2>.row {
+  border-bottom: 1px dotted #d8dadf;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.lxl_row2>.row:last-child {
+  border-bottom: none;
+}
+.lxl_del_border {
+  border-bottom: none !important;
+}
+.lxl_h3 {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 25%;
+
+}
+.lxl_button_form {
+  border: 1px solid #7f8283 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.lxl_button_form button {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    &:hover {        
+        opacity: 0.8;
+    }
+}
+#first_button {
+  margin-left: 30px;
+  color: #ffffff;
+  background-color: #7f8283;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  &:hover {
+      opacity: 0.8;
+  }
+}
+#second_button {
+  padding: 10px 30px;
+  margin-left: 65px;
+}
+
+#third_button {
+  margin-left: 100px;
+  color: #ffffff;
+  background-color: #e75400;
+  font-weight: bold;
+  padding: 10px 30px;
+  border:none;
+  &:hover {
+      opacity: 0.8;
+  }
+}
+.lxl-margin {
+  padding-bottom: 8px;
+}
+.cart-register-product {
+    color: #000;
+    margin-bottom: 40px;
+    .title-page {
+        h3 {
+            margin-left: 10px;
+        }
+    }
+    .steps {
+        padding-left: 15px;
+    }
+    .bd-2px {
+        border: 1px solid #7f8283;
+    }
+    .body_content {
+        h3 {
+            margin-left: 10px;
+        }       
+        .form-content {
+            padding:10px;            
+        }
+        margin-bottom: 20px;
+    }
+    .label-bold {
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .pad-top-25 {
+        padding-top: 25px;
+    }
+    .pad-top-4 {
+        padding-top: 4px;
+    }
+    .group-checkbox {
+        .row {
+            margin-left: 0px;
+            .checkbox {
+                display: block;
+            }
+        }
+    }
+    .mar-boostrap {
+        margin-right: -10px;
+        margin-left: -10px;
+    }    
+    .pad-left-none {
+        padding-left: 0px;
+    }
+    .pad-right-none {
+        padding-right: 0px;
+    }
+    .pad-left-15 {
+        padding-left: 15px;
+    }
+    .pad-left-20 {
+        padding-left: 20px;
+    }
+    .pad-left-5 {
+        padding-left: 5px;
+    } 
+}
+
+.address-member .zip-no {
+    .input-zip {
+        width: 12%;
+        padding: 0px;
+        margin: 0px;
+        input {
+            padding-left: 7px;
+        }
+    }
+    span {
+        float: left;
+        margin-top: 7px;
+        padding-left: 10px;
+    }
+    button {
+        float: left;
+        background-color: #a1a1a1;
+        color: #fff;
+        padding: 6px;
+        margin-left: 10px;
+        border: 1px solid;
+    }
+    .hype {
+        width: 4%;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 0;
+    }
+    padding-bottom: 10px;
+    
+}
+textarea {
+    resize: vertical;
+}
+.circle  {
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 0px 5px 0px 0px;
+    top: 4px;
+    position: absolute; 
+}
+.mar-bottom-none {
+    margin-bottom: 0px;
+}
+
+/********* cart *********/
+.list-products {
+    .product {
+        padding: 10px;
+        border: 1px solid #7f8283;
+        margin-bottom: 15px;
+    }
+}
+.desc-field {
+    margin-bottom: 10px;
+}
+.check-disable-area.disable {
+    .disable-area {
+        background: #f7f8f9;
+        cursor: not-allowed;
+    }
+}
+.lxl_ul {
+    width: auto;
+    font-weight: bold;
+}
+.lxl_ul ul{
+    padding-left: 0px;
+}
+.lxl_ul>ul>li {
+    list-style: none;
+    border: 1px solid #7f8283;
+    text-align: center;
+
+}
+.lxl_ul>ul>li:first-child {
+    word-spacing: 10px;
+    color: #ffffff;
+    background-color: #7f8283;
+}
+.lxl_ul>ul>li:nth-child(2) {
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px 20px;
+}
+.steps {
+    .arrow {
+        float: left;
+        padding-top: 15px;
+    }    
+}

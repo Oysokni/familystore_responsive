@@ -1,0 +1,83 @@
+.img-icon {
+    display: inline-block;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.img-42-42 {
+    width: 42px;
+    height: 42px;
+}
+.img-44-44 {
+    width: 44px;
+    height: 44px;
+}
+.img-45-35 {
+    width: 45px;
+    height: 35px;
+}
+.img-60-40 {
+    width: 60px;
+    height: 40px;
+}
+.img-67-45 {
+    width: 67px;
+    height: 45px;
+}
+.img-36-30 {
+    width: 36px;
+    height: 30px;
+}
+
+.img-members {
+    background-image: url(../images/icons/icon-members.png);
+}
+.img-bussines {
+    background-image: url(../images/icons/icon-bussines.png);
+}
+.img-invitation {
+    background-image: url(../images/icons/icon-invitation.png);
+}
+a:hover, .active a {
+    .img-invitation {
+        background-image: url(../images/icons/icon-invitation-hover.png);
+    }
+}
+.img-arrow-right {
+    background-image: url(../images/icons/icon-arrow-right.png);
+}
+.img-arrow-left {
+    background-image: url(../images/icons/icon-arrow-left.png);
+}
+
+.arrow_sort {
+    display: inline-block;
+    height: 20px;
+    width: 15px;
+    position: relative;
+    &:before, &:after {
+        font-family: "lxl-material-icon";
+        position: absolute;
+        left: -7px;
+        font-size: 28px;
+    }
+    &:before {
+        content: '\e033';
+        top: -8px;
+    }
+    &:after {
+        content: '\e031';
+        bottom: -8px;
+    }
+}
+.link-order {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    line-height: 1;
+    @include transform(translateY(-50%));
+    i {
+        font-size: 28px;
+    }
+}
+
