@@ -152,14 +152,14 @@ $old = Input::old();
 
                     <!-- input code invite-->
                     <div class="form-group box-none">
-                        <div class=" input-box col-xs-3">
+                        <div class=" input-box col-md-3 col-sm-3 col-xs-12"> <!--edit col-xs-3 -->
                            @if($dataSyoutaiKanri->syoutai_cnt < $dataSyoutaiKanri->syoutai_lmt_cnt ) 
                                 <button tabindex="1" type="button" class="btn input-button action-btn {{ $errors->has('syoutai_cd') ? 'btop' : ''}}"  id="random-code" data-toggle="modal" data-target="#exampleModalLong">招待コードの発行</button>
                             @elseif($dataSyoutaiKanri->syoutai_cnt >= $dataSyoutaiKanri->syoutai_lmt_cnt)
                              <button tabindex="1" type="button" class="btn input-button action-btn {{ $errors->has('syoutai_cd') ? 'btop' : ''}}"  id="show-modal" data-toggle="modal" data-target="#exampleModalLong">招待コードを発行</button>
                             @endif
-                        </div>
-                        <div class="input-box col-xs-4 {{ $errors->has('syoutai_cd') ? 'has-error' : ''}}">
+                        </div>                         <!-- edit col-xs4-->
+                        <div class="input-box col-md-4 col-sm-4 col-xs-12 {{ $errors->has('syoutai_cd') ? 'has-error' : ''}}">
                             <input type="text" class="form-control" name="syoutai_cd" id="code-intive" 
                                 @if(isset($old['syoutai_cd'])) value="{{ old('syoutai_cd') }}"
                                 @elseif(isset($codeInvite['syoutai_cd'])) value="{!! $codeInvite['syoutai_cd'] !!}" @endif
@@ -169,7 +169,7 @@ $old = Input::old();
                             {!! $errors->first('syoutai_cd', '<i class="error form-control-feedback" data-bv-icon-for="syoutai_cd" ></i>') !!}
                             {!! $errors->first('syoutai_cd', '<span class="error-mess">:message</span>') !!}
                         </div>
-                        <div class="input-box col-xs-3">  
+                        <div class="input-box col-md-3 col-sm-3 col-xs-12">  <!-- edit col-xs3-->
                             <!-- Modal -->
                             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                               <div class="modal-dialog" role="document">
@@ -205,10 +205,10 @@ $old = Input::old();
                    
                     <!-- input name member-->
                     <div class="form-group box-none">
-                        <div class="col-xs-3">
+                        <div class="col-md-3 col-sm-3 col-xs-12"> 
                             <p class="control-label"><span class="txt-square"> ■ </span>招待者の氏名</p>
-                        </div>
-                        <div class="input-box col-xs-2 {{ $errors->has('syoutai_sei') ? 'has-error' : ''}}">
+                        </div> <!-- edit col-xs-3-->
+                        <div class="input-box col-md-2 col-sm-2 col-xs-12 {{ $errors->has('syoutai_sei') ? 'has-error' : ''}}">
                             <input type="text" class="form-control" name="syoutai_sei"  
                                 @if(isset($old['syoutai_sei'])) value="{{ old('syoutai_sei')}}"
                                 @elseif(isset($codeInvite['syoutai_sei'])) value="{!! $codeInvite['syoutai_sei'] !!}" @endif
@@ -216,7 +216,8 @@ $old = Input::old();
                             {!! $errors->first('syoutai_sei', '<i class="error form-control-feedback" data-bv-icon-for="syoutai_sei" style=""></i>') !!}
                             {!! $errors->first('syoutai_sei', '<span class="error-mess">:message</span>') !!}
                         </div>
-                        <div class="input-box col-xs-2 {{ $errors->has('syoutai_mei') ? 'has-error' : ''}}">
+                        <!-- edit col-xs-2-->
+                        <div class="input-box col-md-2 col-sm-2 col-xs-12 {{ $errors->has('syoutai_mei') ? 'has-error' : ''}}">
                             <input type="text" class="form-control" name="syoutai_mei" 
                                 @if(isset($old['syoutai_mei'])) value="{{ old('syoutai_mei')}}"
                                 @elseif(isset($codeInvite['syoutai_mei'])) value="{!! $codeInvite['syoutai_mei'] !!}" @endif
@@ -224,16 +225,18 @@ $old = Input::old();
                             {!! $errors->first('syoutai_mei', '<i class="error form-control-feedback" data-bv-icon-for="syoutai_mei" style=""></i>') !!}
                             {!! $errors->first('syoutai_mei', '<span class="error-mess">:message</span>') !!}
                         </div>
-                       
+                       <!-- edit col-xs-2 -->
                     </div>
                     <!-- end input name member -->
                     
                     <!-- input Invitee's email address -->
                     <div class="form-group box-none">
-                        <div class="col-xs-3">
+                        <div class="col-md-3 col-sm-3 col-xs-12">   
                             <p class="control-label"><span class="txt-square"> ■ </span> 招待者のメールアドレス</p>
                         </div>
-                        <div class="input-box col-xs-4 {{ $errors->has('syoutai_mail') ? 'has-error' : ''}}">
+                            {{-- edit col-xs-3 --}}
+
+                        <div class="input-box col-md-4 col-sm-4 col-xs-12 {{ $errors->has('syoutai_mail') ? 'has-error' : ''}}">
                             <input type="text" class="form-control" name="syoutai_mail" 
                                    @if(isset($old['syoutai_mei'])) value="{{ old('syoutai_mail')}}"
                                 @elseif(isset($codeInvite['syoutai_mei'])) value="{!! $codeInvite['syoutai_mail'] !!}" @endif
@@ -241,18 +244,20 @@ $old = Input::old();
                             {!! $errors->first('syoutai_mail', '<i class="error form-control-feedback" data-bv-icon-for="syoutai_mail" style=""></i>') !!}
                             {!! $errors->first('syoutai_mail', '<span class="error-mess">:message</span>') !!}
                         </div>
+                        <!-- edit col-xs-4 -->
                     </div>
                     <!-- end input Invitee's email address -->
                     
                     
                     <!-- input Invitee's email address -->
                     <div class="form-group box-none">
-                        <div class="col-xs-3">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
                             <p class="control-label"> <span class="txt-square"> ■ </span>あなたとのご関係</p>
                         </div>
-                        <div class="input-box col-xs-4 mgl-21 mgt-17">
+                      <!-- edit col-xs-3 -->
+                        <div class="input-box col-md-4 col-sm-4 col-xs-12 mgl-21 mgt-17">
                             <div class="container">
-                               <div class="input-box col-xs-4 {{ $errors->has('kankei_flg') ? 'has-error' : ''}}">
+                               <div class="input-box col-md-4 col-sm-4 col-xs-12 {{ $errors->has('kankei_flg') ? 'has-error' : ''}}">
                                    <input id="kankei_flg" type="checkbox" name="kankei_flg" 
                                         @if(isset($old['kankei_flg'])) checked
                                         @elseif(isset($codeInvite['kankei_flg'])) checked @endif
@@ -262,6 +267,7 @@ $old = Input::old();
                                </div>
                             </div>
                         </div>
+                            <!-- edit col-xs-3 -->
                     </div>
                     <!-- end input Invitee's email address -->
 
@@ -285,8 +291,6 @@ $old = Input::old();
                     <span tabindex="6" class="text-desc text-border">ページトップ</span>
                 </a>
         </div>
-        
-        
     </div>
     
 </div>

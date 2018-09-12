@@ -20,6 +20,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="/css/responsive/menu.css">
         <link rel="stylesheet" href="/css/responsive/builder.css">
         <link rel="stylesheet" href="/css/responsive/search.css">
+        <link rel="stylesheet" href="/css/responsive/code-invite.css">
 
         <script src="/js/jquery-1.9.1.min.js"></script>
         @yield('head')

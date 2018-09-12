@@ -1,0 +1,124 @@
+/* ==========================================================================
+Extra small devices (phones, 768 and down page of form-code-invite)
+========================================================================== */
+@media only screen and (max-width: 768px) {
+    
+     .category-items .item ul {
+         margin-bottom: 0;
+         font-size: 14px;
+     }
+ 
+     .invite-title {
+         font-size: 20px;
+     }
+ 
+     .title-form{
+         font-size: 16px !important;
+     }
+ 
+     .txt-square {
+         font-size: 20px !important;
+     }
+     .input-box .input-button,
+     .invite-breadc {
+         font-size: 14px;
+     }
+     .to-top-box-invite{
+         right:0 !important;
+     }
+     .invite-title-icon{
+         margin-right: 18px;
+     }
+     .input-box .input-button{
+         font-size: 14px;
+     }
+     .input-box .input-button,.form-body input, 
+     .form-body select {
+         margin-bottom: 20px;
+     }
+     .form-footer button{
+         font-size: 16px !important;
+         height: auto !important;
+     }
+     .mgl-67,
+     .mgl-36 {
+         margin-left:10px !important;
+     }
+     .text-ul-invite{
+         margin-left: -20px !important;
+     }
+     .form-footer.form-group {
+         margin-left: 17px;
+     }
+     .form-body .form-group{
+         padding-bottom: 0 !important;
+     }
+     .button-tex{
+         width: 94% !important;
+         font-size: 14px;
+         margin-left: 10px !important;
+         text-align: center;
+ }
+ 
+ }
+ 
+ /* ==========================================================================
+ Extra small devices (phones, 480 and down)
+ ========================================================================== */
+ @media only screen and (max-width: 480px) {
+ .invite-title {
+     font-size: 14px;
+ }
+ 
+ .category-items .item ul {
+     margin-bottom: 0;
+     font-size: 12px;
+ }
+ 
+ .title-form {
+     font-size: 14px !important;
+ }
+ 
+ .txt-square {
+     font-size: 16px !important;
+ }
+ 
+ .form-label-left .control-label{
+     font-size: 12px;
+ }
+ 
+ .button-tex{
+     font-size: 12px;
+ }
+
+ }
+ 
+ /* ==========================================================================
+ Extra small devices (phones, 375 and down)
+ ========================================================================== */
+ @media  screen and (max-width:375px) {
+ 
+     .mgl-67, .mgl-36 {
+         font-size: 12px;
+     }
+ 
+     .input-box .input-button {
+         font-size: 12px !important;
+     }
+ 
+     .form-footer button{
+         font-size: 12px !important;
+         height: auto !important;
+     }
+ 
+     .input-box .input-button,
+     .form-body input, .form-body select {
+         margin-bottom: 7px;
+     }
+ 
+     .button-tex{
+         font-size: 10px;
+     }
+ 
+ }
+ 
