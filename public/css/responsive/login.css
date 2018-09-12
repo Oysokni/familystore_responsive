@@ -95,10 +95,6 @@ Extra small devices (phones, 768 and down)
         height: 50px;
     }
 
-    .action-btn.action-btn-md {
-        height: 45px;
-    }
-
     .lxl-icon-circle{
         width: 23px;
         height: 23px;
@@ -132,10 +128,6 @@ Extra small devices (phones, 375 and down)
     .img-60-40 {
         width: 25px;
         height: 20px;
-    }
-
-    .action-btn.action-btn-md {
-        height: 30px;
     }
 
     .action-btn{
