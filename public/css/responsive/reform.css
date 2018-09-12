@@ -1,10 +1,23 @@
 /* ==========================================================================
-Extra small devices (phones, 768 and down)
+Extra small devices (phones, 992 and down) page of reform
+========================================================================== */
+@media only screen and (max-width: 992px) {
+    .page-title{
+        font-size: 25px;
+    }
+    #body_content{
+        min-height: 100vh;
+    }
+}    
+/* ==========================================================================
+         page of reform
 ========================================================================== */
 @media only screen and (max-width: 768px) {
 
 #body_content .content-row .content-col{
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .to-top-box{
@@ -74,10 +87,15 @@ Extra small devices (phones, 768 and down)
 .nav-breadcrumb {
     margin-bottom: 5px;
 }
-
+ /* =========================
+     page of reform-thanks
+=======================*/
+.page-title{
+    font-size: 20px;
+}
 }
 /* ==========================================================================
-Extra small devices (phones, 480 and down)
+Extra small devices (phones, 480 and down) page of reform
 ========================================================================== */
 @media only screen and (max-width: 480px) {
     .page-title i {
@@ -112,12 +130,16 @@ Extra small devices (phones, 480 and down)
     .category-list li a {
         font-size: 12px;
     }
-
-   
+    /* =====================================
+        page of reform-thanks 
+    ======================================== */
+    .page-title{
+        font-size: 16px;
+    }
 }
 
 /* ==========================================================================
-Extra small devices (phones, 375 and down)
+Extra small devices (phones, 375 and down) page of reform
 ========================================================================== */
 @media  screen and (max-width:375px) {
     .page-title i{
@@ -157,4 +179,13 @@ Extra small devices (phones, 375 and down)
     .category-list li a {
         font-size: 11px;
     }
+     /* =========================
+        page of reform-thanks
+        =======================*/
+    .page-title{
+            font-size: 14px;
+        }
+     .link-btn.link-btn-lg{
+         font-size: 10px;
+     }
 } 
