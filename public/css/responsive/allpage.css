@@ -32,11 +32,15 @@ Extra small devices (phones, 992 and down)
         padding-left: 4%;
     }
     footer {
-        height: 114px;
+        height: auto !important;
+        width: 100%;
+        padding: 8% 0px;
+        background-size: 100% auto;
         max-width: 100%;
     }
     footer .foot-content{
         padding: 6px 9px;
+        top: 0px;
     }
     .bar-box-3{
         width: 100%;
@@ -91,10 +95,17 @@ Extra small devices (phones, 768 and down)
         max-width: 100%;
     }
 
-    footer .foot-content{
-        padding: 6px 9px;
+    footer .foot-content {
+        padding: 1% 10px;
     }
-
+    footer .foot-content > p{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    footer .foot-content .text-lixil {
+        display: block;
+        text-align: left;
+    }
     .wrapper .box-title {
         margin-top: 0;
         margin-bottom: 15px;
@@ -154,10 +165,9 @@ Extra small devices (phones, 768 and down)
     .wrap-title {
         font-size: 16px;
     }
-
+    /*========start Footer ====*/
     footer .foot-content{
-        font-size: 12px;
-        padding: 5px 5px; /* logo of footer */
+        font-size: 14px;
     } 
 
     footer .foot-content p {
@@ -175,7 +185,7 @@ Extra small devices (phones, 768 and down)
     i.lxl-title {
         font-size: 40px;
     }
-
+    /*========end Footer ====*/
     table.table-labels .text-btn{
         font-size: 12px;
     }
@@ -212,19 +222,6 @@ Extra small devices (phones, 375 and down)
 
     .text-desc {
         font-size: 12px;       
-    }     /* text container */
-
-    footer .foot-content{
-        font-size: 10px;
-        padding-top:0;  /* logo of footer */
-    } 
-
-    footer .foot-content p {
-        font-size: 10px;
-    }
-
-    footer{
-        height: 57px;
     }
     
     .box-title{
@@ -257,4 +254,13 @@ Extra small devices (phones, 375 and down)
       .bar-title, .bar-title-2{
         font-size: 12px;
     }
+ }
+ /*
+ * screen rotation
+ */
+
+@media  screen and (max-height:375px) {
+    footer{
+        position: relative
     }
+}
